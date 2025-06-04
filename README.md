@@ -112,4 +112,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-Dani – [@ItsMeD4N](https://github.com/ItsMeD4N)
+DAN – [@ItsMeD4N](https://github.com/ItsMeD4N)
