@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ESP32-CAM Test</title>
+  </head>
+  <body>
+    <h1>ESP32-CAM Upload Test</h1>
+    <img id="latestImage" src="" alt="Latest ESP32 Image" width="400" />
+    <br /><button onclick="refreshImage()">Refresh Image</button>
+
+    <script>
+      function refreshImage() {
+        // Ganti ini dengan nama file foto yang dikirim ESP32-CAM
+        // Contoh hardcode: fetch file terbaru, misalnya latest.jpg
+        const timestamp = new Date().getTime(); // supaya cache tidak menahan gambar lama
+        document.getElementById(
+          "latestImage"
+        ).src = `http://localhost:3001/uploads/latest.jpg?${timestamp}`;
+      }
+
+      // Auto-refresh pertama kali
+      refreshImage();
+    </script>
+  </body>
+</html>
