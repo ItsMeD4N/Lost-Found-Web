@@ -110,6 +110,6 @@ Contributions are welcome! To contribute:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 📬 Contact
+## 👑 Author
 
-DAN – [@ItsMeD4N](https://github.com/ItsMeD4N)
+Made with ⚡ by [ItsMeD4N](https://github.com/ItsMeD4N)
