@@ -11,7 +11,7 @@ const UploadKTM = () => {
     const timer = setInterval(() => setCountdown((prev) => prev - 1), 1000);
     if (countdown === 0) {
       clearInterval(timer);
-      setStatus("Mengambil foto dari ESP32...");
+      setStatus(" Mohon Tunggu... sedang mengambil foto dari ESP32...");
       fetch("http://localhost:3000/api/ktm/capture")
         .then((res) => res.json())
         .then((data) => {
